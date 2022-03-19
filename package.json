@@ -1,0 +1,29 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "develop": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tokhalyan/employee-tracker.git"
+  },
+  "author": "Shahen Tokhalyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tokhalyan/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/Tokhalyan/employee-tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.3",
+    "inquirer": "^8.2.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
